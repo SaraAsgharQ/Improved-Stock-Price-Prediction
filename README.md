@@ -1,8 +1,5 @@
 # Beyond Inflated Accuracy: Mitigating Look-Ahead Bias and Benchmarking Advanced Architectures for KSE-100 Stock Prediction
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-Latest-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## Overview
@@ -50,10 +47,24 @@ The difference between the inflated results of the baseline paper and the realis
 > **Note:** The "Honest" accuracy hovering around 52-55% is not a failure; it is the statistical reality of the Efficient Market Hypothesis.
 
 ---
+## Running AAI_Final_Implementation.ipynb via Google Colab
 
-## Repository Structure
+This guide provides the steps to execute the project notebook directly from GitHub using Google Colaboratory.
+### Repository Structure
 
 ```bash
 ├── AAI_Final_Implementation.ipynb   # Main notebook (Preprocessing, Training, Evaluation)
 ├── Conference_Paper.pdf             # IEEE formatted paper detailing the research                         
 └── README.md                        # Project documentation
+```
+***
+
+## Execution Steps (GitHub to Colab)
+
+Follow these steps to quickly open and run the analysis:
+
+* **1. Navigate to the Notebook:** In your GitHub repository, open the file: **`AAI_Final_Implementation.ipynb`**.
+* **2. Open in Colab:** Change the domain in the browser's URL bar from `github.com/...` to **`colab.research.google.com/github/...`** and press Enter.
+* **3. Connect:** Once the notebook loads in Colab, click the **"Connect"** button in the top right corner.
+* **4. Run:** Go to **`Runtime`** $\to$ **`Run all`** (or press `Ctrl+F9` / `Cmd+F9`).
+    * *Note:* The first few cells will install required libraries (`!pip install...`).
